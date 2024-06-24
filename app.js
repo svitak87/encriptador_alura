@@ -11,6 +11,23 @@ function processText(action) {
   let conditionsMessage = document.getElementById("conditions_message");
   let textArea = document.getElementById("textarea");
   let text = input.toString();
+  
+
+  if (input.length === 0) {
+    let popUp = document.getElementById("popup"); 
+    let span = document.getElementById("close-empty"); 
+    let alertMessage = document.getElementById("message-alert"); 
+  
+    if (popUp && alertMessage && span) { 
+      popUp.style.display = "block";
+      alertMessage.style.color = "red";
+      
+      span.onclick = function () {
+        popUp.style.display = "none";
+      };
+    }
+  }
+  
 
   if (!validationCharacters(input)) {
     conditionsMessage.style.color = "red";
@@ -20,7 +37,6 @@ function processText(action) {
     }, 4000);
     return;
   } else {
-
     let processedText;
     if (action === "encrypt") {
       processedText = text
@@ -45,7 +61,9 @@ function processText(action) {
           : "Mensaje descifrado con éxito";
       paraghrap.textContent = "";
       image.src =
-        action === "encrypt" ? "./assets/candado.jpg" : "./assets/candado_abierto.png";
+        action === "encrypt"
+          ? "./assets/candado.jpg"
+          : "./assets/candado_abierto.png";
 
       let modal = document.getElementById("modal");
       let span = document.getElementsByClassName("close")[0];
@@ -90,8 +108,6 @@ function processText(action) {
           }
         );
       };
-    } else {
-      alert("Debes ingresar un texto");
     }
   }
 }
