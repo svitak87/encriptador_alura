@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container_encriptador">
+            <textarea type="text" name="textarea" class="textarea" id="textarea"
+                placeholder="Ingrese el texto aquí" cols="30" rows="10"></textarea>
+        </div>
+        <div class="conditions">
+            <p id="conditions_message">Solo letras minúsculas, sin acentos ni caracteres especiales</p>
+        </div>
+        <div class="buttons_container">
+            <button class="btn-cifrar" type="button" onclick="encrypt()">Cifrar</button>
+            <button class="btn-descrifrar" type="button" onclick="decrypt()">Descifrar</button>
+        </div>
+        <div class="response_container">
+            <img src="./assets/muñeco.png" alt="muñeco Alura_Latam" id="image">
+            <div class="encripted_message" id="encripted_message">
+                <h2 id="message_warning">Ningún mensaje fue encontrado</h2>
+                <p id="paraghrap">Ingresa el texto a encriptar o desencriptar</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- PopUp -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="encryptedText"></p>
+            <button id="copyBtn">Copiar texto</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
