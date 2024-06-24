@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles.css">
     <title>Encriptador de texto</title>
 </head>
+
 <body>
     <div class="container">
+        <h1 class="title">Encriptador de Texto</h1>
         <div class="container_encriptador">
-            <textarea type="text" name="textarea" class="textarea" id="textarea"
-                placeholder="Ingrese el texto aquí" cols="30" rows="10"></textarea>
+            <textarea type="text" name="textarea" class="textarea" id="textarea" placeholder="Ingrese el texto aquí"
+                cols="30" rows="10"></textarea>
         </div>
         <div class="conditions">
             <p id="conditions_message">Solo letras minúsculas, sin acentos ni caracteres especiales</p>
@@ -26,6 +30,16 @@
                 <p id="paraghrap">Ingresa el texto a encriptar o desencriptar</p>
             </div>
         </div>
+        <footer>
+            <div class=footerContainer>
+                <small class=footer>&copy; 2024 <b>Svitak87</b> - En colaboración con <a class="alura"
+                        href="https://www.aluracursos.com" target="_blank">Alura Latam</a></small>
+                </a>
+                <a class=github href="https://github.com/svitak87" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+        </footer>
     </div>
 
     <!-- PopUp -->
@@ -39,4 +53,5 @@
 
     <script src="./app.js"></script>
 </body>
+
 </html>

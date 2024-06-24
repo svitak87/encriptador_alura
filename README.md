@@ -16,7 +16,10 @@ información sensible o simplemente divertirte con la criptografía, esta aplica
 <p>*Cuando seleccionas el botón 'copiar texto', desaparecerá el Pop-up</p>
 <img src="./previews/preview-three.png">
 
-<p>¡IMPORTANTE! Con el texto ya copiado, se repite el proceso pero haciendo click en el botón 'Descifrar<p>
+<p>¡IMPORTANTE! Con el texto ya copiado, se repite el proceso ingresando el texto haciendo con el teclado: 'Ctrl + v'; pero haciendo click en el botón 'Descifrar'<p>
+
+<h2>A tener en cuenta... La aplicación <span>NO</span> acepta minúsculas, caracteres especiales o con acentos.</h2>
+<img src="./previews/preview_four.png">
 
 <h2>Tecnologías utilizadas:</h2>
 <ul>

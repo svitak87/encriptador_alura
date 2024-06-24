@@ -11,6 +11,17 @@
     background: #F3F5FC ;
 }
 
+.title {
+    position: absolute;
+    left: 12%;
+    top: 5%;
+    font-family: "Inter";
+    font-style:normal;
+    font-weight:bolder;
+    font-size: 40px;
+    color: #0a3871;
+}
+
 .textarea {
     position: absolute;
     width: 40%;
@@ -47,7 +58,7 @@
     position: absolute;
     width: 80%;
     left: 12%;
-    top: 80%
+    top: 75%
 }
 
 .conditions p {
@@ -67,8 +78,9 @@
     width: 82%;
     height: 5%;
     position: absolute;
-    top: 82%;
+    top: 78%;
     left: 12%;
+    margin-bottom: 2rem;
 }
 
 .btn-cifrar{
@@ -90,6 +102,7 @@
 .btn-descrifrar{
     align-items: center;
     justify-content: center;
+    margin-left: 2rem;
     padding: 2%;
     gap: 80px;
     width: 25%;
@@ -157,7 +170,7 @@
 }
 
 
-/* Pop-ip */
+/* Pop-up styles*/
 .modal {
     display: none; 
     position: fixed; 
@@ -227,6 +240,49 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+
+/* Footer styles */
+
+.footerContainer {
+    position: absolute;
+    margin-top: 5rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #0a3871;
+    color: #fff;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .footer {
+    font-size: 14px;
+  }
+  
+  .footer b {
+    color: #ebebe2; 
+  }
+.alura {
+    color: white
+}
+  
+  .github{
+    position: fixed;
+    bottom: 0px;
+    right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5f6063;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+  }
 
 
 

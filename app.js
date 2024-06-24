@@ -47,7 +47,6 @@ function processText(action) {
       image.src =
         action === "encrypt" ? "./assets/candado.jpg" : "./assets/candado_abierto.png";
 
-      // Mostrar el modal con el texto procesado
       let modal = document.getElementById("modal");
       let span = document.getElementsByClassName("close")[0];
       let encryptedTextElement = document.getElementById("encryptedText");
