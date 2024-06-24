@@ -181,10 +181,10 @@
 }
 .modal-content p{
     margin-left: 10px;
-    word-wrap: break-word;  /* Permite la palabra romper para ajustar el contenido */
-    overflow-wrap: break-word;  /* Permite el texto que se ajusta a la caja */
+    word-wrap: break-word;  
+    overflow-wrap: break-word; 
     box-sizing: border-box;
-    white-space: pre-wrap;  /* Permite saltos de línea */
+    white-space: pre-wrap;  
 }
 
 .close {
