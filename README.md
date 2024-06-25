@@ -6,20 +6,25 @@ información sensible o simplemente divertirte con la criptografía, esta aplica
 
 <p>Les comparto unas imágenes sobre cómo se ve la aplicación:</p>
 
-<h2>Incio de aplicación</h2>
+<h2>Inicio de aplicación</h2>
 <img src="./previews/preview_one.png">
 
-<h2>Ingresa el texto a encriptar y aprieta el botón cifrar</h2>
+<h2>Ingresa el texto a encriptar y haz click en el botón cifrar</h2>
 <img src="./previews/preview_two.png">
 
 <h2>Aparecerá un Pop-up con el texto encriptado y la opción de copiarlo en el portapapeles</h2>
 <p>*Cuando seleccionas el botón 'copiar texto', desaparecerá el Pop-up</p>
 <img src="./previews/preview-three.png">
 
-<p>¡IMPORTANTE! Con el texto ya copiado, se repite el proceso ingresando el texto haciendo con el teclado: 'Ctrl + v'; pero haciendo click en el botón 'Descifrar'<p>
+<p>¡IMPORTANTE! Con el texto ya copiado, se repite el proceso ingresando el mismo con las teclas: 'Ctrl + v'; pero haciendo click en el botón 'Descifrar'.<p>
 
+<h1>Manejo de errores:</h1>
 <h2>A tener en cuenta... La aplicación <span>NO</span> acepta minúsculas, caracteres especiales o con acentos.</h2>
 <img src="./previews/preview_four.png">
+
+<h2>Caja de texto vacía:</h2>
+<p>*Si se hace click en alguno de los botones (Cifrar o descifrar), y la caja de texto está vacía, se mostrará un Pop-Up con el error correspondiente.</p>
+<img src="./previews/preview_five.png">
 
 <h2>Tecnologías utilizadas:</h2>
 <ul>
